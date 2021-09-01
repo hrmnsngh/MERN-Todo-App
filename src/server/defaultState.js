@@ -9,10 +9,10 @@ export const defaultState = {
         { name: "Done", id: "g3", owner: "u1"}
     ],
     tasks:[
-        { name: "Do coding", id:"t1", owner: "u1", isComplete: false},
-        { name: "Unit Testing", id:"t2", owner: "u1", isComplete: false},
-        { name: "Integration Testing", id:"t2", owner: "u1", isComplete: false},
-        { name: "Deployed", id:"t3", owner: "u1", isComplete: false}
+        { name: "Do coding", id:"t1", owner: "u1", isComplete: false, group: "g1"},
+        { name: "Unit Testing", id:"t2", owner: "u1", isComplete: false, group : "g1"},
+        { name: "Integration Testing", id:"t2", owner: "u1", isComplete: false, group: "g1"},
+        { name: "Deployed", id:"t3", owner: "u1", isComplete: false, group: "g1"}
     ],
     comments:[
         { owner: "u1", id: "c1", task: "t1", content: "I am working on it"}
